@@ -1,0 +1,7 @@
+{
+  "place_not_found": "Place is not exist",
+  "comment_not_found":"Comment is not exist",
+  "comment_not_yours":"You can't edit or delete a comment that you don't own",
+  "recommended_already_exist":"Recommended Place Already Exist",
+  "send_place_id":"You Should Send Place Id"
+}

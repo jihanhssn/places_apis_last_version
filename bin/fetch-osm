@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const { osm } = require('../src/integration/osm/osm');
+
+const fetchOSM = async () => {
+	await osm();
+
+	console.log('Fetch is done.');
+}
+
+fetchOSM();

@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+'use strict';
+require('dotenv').config();
+const app = require('../lemon-place');
+
+const port = process.env.SERVER_PORT || 3006;
+
+app.listen(port, () => {
+	console.log(`LemonPlace is running on ${process.env.NODE_ENV} port ${port} ...`);
+});

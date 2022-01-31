@@ -1,0 +1,14 @@
+node_modules
+*.log
+logs/
+configs/ssl/
+.idea/
+.vscode/
+package-lock.json
+.directory
+.env
+.keep
+.nyc_output/%
+/images
+/logo
+/lemon-places-storage
